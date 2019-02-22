@@ -13,4 +13,3 @@ RUN set -x && \
 COPY ./config/php.ini /usr/local/etc/php/php.ini
 
 WORKDIR /app
-
