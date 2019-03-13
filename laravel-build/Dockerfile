@@ -6,6 +6,7 @@ RUN set -x && \
   yum update && \
   yum install -y git && \
   yum install -y aws-cli && \
+  yum install -y zip unzip && \
   amazon-linux-extras install php7.3 -y && \
   yum install -y php php-opcache php-devel php-opcache php-mbstring php-xml && \
   curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer && \
